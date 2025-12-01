@@ -3,8 +3,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  test:
+  job1:
     runs-on: ubuntu-latest
     steps:
-      - name: test
-        run: echo test
+      - name: job1
+        run: echo job1
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: job2
+        run: echo job2
