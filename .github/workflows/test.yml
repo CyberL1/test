@@ -3,13 +3,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  job1:
+  success:
     runs-on: ubuntu-latest
     steps:
-      - name: job1
-        run: echo job1
-  job2:
+      - name: success
+        run: echo success
+  fail:
     runs-on: ubuntu-latest
     steps:
-      - name: job2
-        run: echo job2
+      - name: fail
+        run: echo fail
